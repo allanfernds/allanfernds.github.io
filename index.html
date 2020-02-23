@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index.html</title>
+</head>
+<body>
+	<center>
+		<audio src="audio.wav" controls>Play</audio>
+		
+		<table>
+			<tr>
+				<td>
+					<img src="ptolemeu.jpg"/>
+					<img src="metadado.png">
+				</td>				
+			</tr>			
+		</table>
+		
+		<br><br>
+		<input type="text" id="texto">
+		<button onclick="Resposta();"> CONFIRMAR </button>
+
+
+	</center>
+</body>
+<style type="text/css">
+
+	td{
+	    color: white;
+		font-size: 15px;
+		font-stretch: condensed;
+	}
+	h1{
+		color: green;
+		font-size: 20;
+	}
+	img{
+		width: 200px;
+		height: 250px;
+	}
+	body{
+		background-color: black;
+	}
+
+		
+	
+</style>
+
+<script type="text/javascript">
+	
+	window.alert('Não lembro como vim parar aqui')
+	function Resposta() {
+      const texto = window.document.getElementById('texto');
+      if (texto.value == '99794127-34881173') {
+         window.location.href = 'Enigma2.html';
+      } else {
+         alert('ERROU! TENTE NOVAMEMTE');
+      }
+   }
+
+</script>
+</html>

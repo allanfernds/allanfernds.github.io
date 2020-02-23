@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Try Angle</title>
+</head>
+<body bgcolor="black">
+	<center>
+				
+		<table>
+			<tr>
+				<td>
+				<audio src="ba.wav" controls>...</audio>
+				</td>				
+			</tr>			
+		</table>
+		
+		<br><br>
+		<input type="text" id="texto">
+		<button onclick="Resposta();"> CONFIRMAR </button>
+
+
+	</center>
+</body>
+<style type="text/css">
+
+	td{
+	    color: white;
+		font-size: 15px;
+		font-stretch: condensed;
+	}
+	h1{
+		color: green;
+		font-size: 20;
+	}
+	img{
+		width: 200px;
+		height: 250px;
+	}
+	body{
+		background-color: black;
+	}
+
+		
+	
+</style>
+
+<script type="text/javascript">
+
+	window.alert('Quem é você e onde estão meus pais ?')
+	
+	function Resposta() {
+      const texto = window.document.getElementById('texto');
+      if (texto.value == 'bom sonhos') {
+         window.location.href = 'Enigma6.html';
+      } else {
+         alert('ERROU! TENTE NOVAMEMTE');
+      }
+   }
+
+</script>
+</html>
